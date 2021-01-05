@@ -3,15 +3,20 @@
     min-width: 100px;
 }
 
-body {
-  background-color: #fbfbfb;
-  margin: auto;
-  width: 50%;
-  max-width: 800px;
-  min-width: 300px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  text-align: left;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+.block{
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+
+body{
+	background-color: #fbfbfb;
+	margin: auto;
+	width: 50%;
+	max-width: 800px;
+	min-width: 300px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: left;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
 }
