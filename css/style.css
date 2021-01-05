@@ -3,9 +3,8 @@
     min-width: 450px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 80px;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 .block{
@@ -14,7 +13,7 @@
 }
 
 body{
-	background-color: #fbfbfb;
+	background-color: #F1D7BC;
 	margin: auto;
 	width: 50%;
 	max-width: 800px;
