@@ -2,6 +2,9 @@
 	text-align: center;
 }
 
+.center_links{
+  text-align: center;
+}
 .headshot_resize{
 	width: 25%;
     min-width: 300px;
