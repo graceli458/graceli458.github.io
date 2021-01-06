@@ -12,9 +12,9 @@
 	padding-bottom: 10px;
 }
 
-.resume_btn {
-    background: black;
-    color: #fff;
+.resume_btn{
+    background: white;
+    color: black;
     border: none;
     position: relative;
     height: 40px;
@@ -23,6 +23,12 @@
     cursor: pointer;
     transition: 800ms ease all;
     outline: none;
+    border: 2px solid gray;
+}
+
+.resum_btn:hover{
+	background-color: gray;
+	color: black;
 }
 
 body{
