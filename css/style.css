@@ -1,10 +1,21 @@
 .headshot{
-	width: 25%;
+	/*width: 25%;
     min-width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 200px;
-	padding-right: 200px;
+	padding-right: 200px;*//*
+	align-content: center;*/
+	text-align: center;
+}
+
+.headshot_resize{
+	width: 25%;
+    min-width: 300px;
+}
+.heading{
+	align-content: center;
+	text-align: center;
 }
 
 .contact_form{
