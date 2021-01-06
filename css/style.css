@@ -22,6 +22,7 @@
     padding: 0 2em;
     cursor: pointer;
     transition: 800ms ease all;
+    transition-duration: 0.4s;
     outline: none;
     border: 2px solid gray;
 }
