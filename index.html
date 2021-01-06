@@ -3,11 +3,12 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap" rel="stylesheet">
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 	</head>
 
 	<body>
-		<div class="headshot">
-			<img src= "IMG_2362.JPG" alt="Picture of me, Grace Li">
+		<div >
+			<img  class="headshot" src= "IMG_2362.JPG" alt="Picture of me, Grace Li">
 		</div>
 
 		<div class="block">
@@ -17,11 +18,10 @@
 
 		<div>
 
-		<div class="block">
+		<div class="center_text">
 			<h2> Where to See My Work </h2> 
 			<p>
-				<a href="https://www.gracestills.com/"
-		          >My Art Portfolio</a>
+				<a href="https://www.gracestills.com/">My Art Portfolio</a>
 			</p>
 
 			<p>
@@ -76,6 +76,31 @@
 			<p>
 				• White Teeth by <a href="https://www.penguinrandomhouse.com/books/169680/white-teeth-by-zadie-smith/9780375703867/readers-guide/"> Zadie Smith </a>
 			</p>
+		</div>
+
+		<div class="contact_form">
+			<h2>Contact Me</h2>
+			   <form action="mailto:gl2676@barnard.edu" method="get" enctype="text/plain">
+			     <div>
+			       <label for="name">Name:
+			         <input type="text" name="name" id="name" />
+			       </label>
+			     </div>
+			     <div>
+			       <label for="email">Email:
+			         <input type="text" name="email" id="email" />
+			       </label>
+			     </div>
+			     <div>
+			       <label>Comments:</label>
+			       <br />
+			       <textarea name="comments" rows="12" cols="35">Send your comments to us.</textarea>
+			     </div>
+			     <div>
+			       <input type="submit" name="submit" value="Send" />
+			       <input type="reset" name="reset" value="Clear Form" />
+			     </div>
+			   </form>
 		</div>
 
 	</body>
