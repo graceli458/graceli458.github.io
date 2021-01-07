@@ -156,7 +156,7 @@ body{
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 100px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Cantarell', sans-serif !important;
     font-weight: 500; 
   }
 
@@ -167,7 +167,7 @@ body{
     color: #F9E5EC !important;
     display: block;
     transition: 0.3s;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Cantarell', sans-serif !important;
     font-size: 22px !important;
     
   }
@@ -178,6 +178,6 @@ body{
     right: 35px;
     font-size: 40px !important;
     margin-left: 50px;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Cantarell', sans-serif !important;
   }
 
