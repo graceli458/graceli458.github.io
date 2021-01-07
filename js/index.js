@@ -1,10 +1,9 @@
-$(document).ready(function(){
+/* Set the width of the side navigation to 250px */
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
 
-	 $('.heading').on('mouseover',function(){
-	 	$(this).animate({
-	 		"letter-spacing":"20px";
-	 		"font-size": "500px"
-	 	},400);
-	 })
-  
-})
+/* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }

@@ -1,6 +1,11 @@
+.top_align{
+	padding-bottom: 80px !important
+}
+
 .headshot{
 	text-align:center;
 	align-content: center;
+	padding-top: 20px;
 }
 
 .logo{
@@ -16,16 +21,6 @@
 	padding-bottom: 100px;
 }
 
-.underline--magical {
-  background-image: linear-gradient(45deg, #F9E5EC, #F9B4CB);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
-}
-.underline--magical:hover {
-  background-size: 100% 88%;
-}
 
 .underline--magical--words{
   background-image: linear-gradient(45deg, #E1EDE0, #C9D3E0);
@@ -42,6 +37,7 @@
 .resume_pos{
   text-align: right;
   align-content: right;
+  
 }
 
 .align_left { 
@@ -50,6 +46,7 @@
 
 .align_right { 
 	float: right; 
+	padding-top: 15px;
 }
 
 .headshot_resize{
@@ -114,4 +111,73 @@ body{
 	font-weight: 300;
   color: #555;
 }
+
+.align_nav{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav-container{
+	position: absolute;
+    height: 50px; 
+    width: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+    align-items: right;
+    top:0px;
+    right:0px;
+   
+ }
+
+.bar1, .bar2, .bar3{
+    width: 35px; 
+    height: 3px; 
+    background-color: #312F2F; 
+    margin: 7px 0; 
+    transition: 0.4s; 
+    cursor: pointer;
+    top:0;
+    right:0;
+
+  }
+  /* The side navigation menu */
+  .sidenav {
+    height: 100% !important; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #646262 !important; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 100px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500; 
+  }
+
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #F9E5EC !important;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 22px !important;
+    
+  }
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    font-size: 40px !important;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif !important;
+  }
 
