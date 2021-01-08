@@ -181,3 +181,22 @@ body{
     font-family: 'Cantarell', sans-serif !important;
   }
 
+  /* CSS FOR EXPERIENCE PAGE */
+.center-elements{
+  align-content: center;
+  text-align: center;
+}
+
+#experience{
+  background-color: #fbfbfb;
+  margin: auto;
+  width: 50%;
+  max-width: 800px;
+  min-width: 300px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 300;
+  color: #555;
+}
+
