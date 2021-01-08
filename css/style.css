@@ -1,6 +1,22 @@
-.top_align{
-	padding-bottom: 80px !important
+
+body{
+  background-color: #fbfbfb;
+  margin: auto;
+  width: 50%;
+  max-width: 800px;
+  min-width: 300px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: left;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 300;
+  color: #555;
 }
+
+.top_align{
+	padding-bottom: 80px !important;
+}
+
 
 .headshot{
 	text-align:center;
@@ -98,19 +114,6 @@ h1, h2 strong{
 	border: 2px solid #646262;
 }
 
-body{
-	background-color: #fbfbfb;
-	margin: auto;
-	width: 50%;
-	max-width: 800px;
-	min-width: 300px;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	text-align: left;
-	font-family: 'Cantarell', sans-serif;
-	font-weight: 300;
-  color: #555;
-}
 
 .align_nav{
 	width: 100%;
@@ -124,7 +127,7 @@ body{
 	position: absolute;
     height: 50px; 
     width: 50px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-right: 20px;
     text-align: right;
     align-items: right;
@@ -200,3 +203,73 @@ body{
   color: #555;
 }
 
+#port-nav{
+    font-family: 'Cantarell', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500; 
+    padding: 0px 0px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+.navbar-nav > li{
+  padding-left: 10px; 
+  padding-right: 10px; 
+}
+
+.align_nav{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-container{
+  position: absolute;
+  height: 50px; 
+  width: 50px;
+  padding-top: 0px;
+  padding-right: 30px;
+  text-align: right;
+  align-items: right;
+  top:0px;
+  right:0px;
+   
+ }
+
+  .sidenav {
+    height: 100% !important; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #646262 !important; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 100px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    font-family: 'Cantarell', sans-serif !important;
+    font-weight: 500; 
+  }
+
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #F9E5EC !important;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Cantarell', sans-serif !important;
+    font-size: 22px !important;
+    
+  }
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    font-size: 40px !important;
+    margin-left: 50px;
+    font-family: 'Cantarell', sans-serif !important;
+  }
