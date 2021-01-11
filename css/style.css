@@ -13,6 +13,11 @@ body{
   color: #555;
 }
 
+.slides{
+  align-content: center;
+  text-align: center;
+}
+
 .top_align{
 	padding-bottom: 80px !important;
 }
