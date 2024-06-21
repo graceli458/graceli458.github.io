@@ -8,6 +8,9 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet"> <!-- Link to your external CSS file -->
+    <!-- Include Google Font (example: Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
 </head>
 
 <!-- Bootstrap JS, Popper.js, and jQuery -->
@@ -17,7 +20,7 @@
 
 <body>
     <!-- Fixed Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #ffdab9;">
         <a class="navbar-brand" href="home.html">Grace Li</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,9 +46,8 @@
 
     <!-- Main Container -->
     <div class="container-fluid">
-
-        <!-- Row with Two Columns -->
-        <div class="row mt-4 row1">
+        <!-- Profile Picture + Description -->
+        <div class="row mt-4" style="padding-top: 80px">
             <div class="col-md-6">
                 <img src="assets/profile.jpeg" class="img-fluid" alt="Placeholder Image">
             </div>
@@ -65,18 +67,148 @@
                 
             </div>
         </div>
-        <!-- <h1>Welcome to My Bootstrap Page</h1>
-        <p>This is a simple example of a Bootstrap page.</p> -->
 
-        <!-- Card -->
-        <!-- <div class="card mt-4" style="width: 18rem;">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
-            <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <!-- Profile Picture + Description -->
+        <div class="row mt-4 justify-content-center">
+            <div>
+                <p>Current based in NYC and BOS</p>
             </div>
-        </div> -->
+        </div>
+
+        
+        <!-- Publications -->
+        <h1>Publications</h1>
+
+        <div class="row mt-4">
+
+            <div class="col-md-4 d-flex justify-content-cente ">
+                <div class="card mt-4 d-flex flex-column justify-content-between">
+                    <img src="assets/paper_previews/tweetorial-hooks-paper.png" class="card-img-top" alt="Placeholder Image">
+                    
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Tweetorial Hooks: Generative AI Tools to Motivate Science on Social Media</h5>
+                        <p class="card-text"> Tao Long, Dorothy Zhang, <b>Grace Li</b>, Batool Taraif, Samia Menon, Kynnedy Smith, Sitong Wang, Katy Gero, Lydia B. Chilton</p>
+                        <a href="https://arxiv.org/abs/2305.12265" class="btn btn-primary">Paper</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card mt-4 d-flex flex-column justify-content-between">
+                    <img src="assets/paper_previews/topic-scoping-paper.png" class="card-img-top" alt="Placeholder Image">
+                    
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Eliciting Topic Hierarchies from Large Language Models</h5>
+                        <p class="card-text"> <b>Grace Li</b>, Tao Long, Lydia B. Chilton</p>
+                        <a href="https://arxiv.org/abs/2310.19275" class="btn btn-primary">Paper</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card mt-4 d-flex flex-column justify-content-between">
+                    <img src="assets/paper_previews/dialogue-act-paper.png" class="card-img-top" alt="Placeholder Image">
+                    
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Evaluating the Explanation Capabilities of LLMs in Conversation Compared to a Human Baseline</h5>
+                        <p class="card-text"><b>Grace Li</b>, Milad Alshomary, Smaranda Muresan</p>
+                        <a href="#" class="btn btn-primary">Paper</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Teaching -->
+        <h1 style="padding-top: 25px">Teaching & Service</h1>
+        
+        <div>
+            <p>Spring 2023: Teaching Assistant for User Interface Design for Professor Lydia Chilton</p>
+            <p>Fall 2023:  Teaching Assistant for Natural Language Processing for Professor Daniel Bauer</p>
+            <p>Fall 2021 - Spring 2024: Head Speaking Fellow at the Barnard College Speaking and Writing Fellow</p>
+            <p>Spring 2022 - Winter 2023: Peer Tutor in Data Structures and Algorithms</p>
+        </div>
+         
+        <!-- Projects -->
+        <h1 style="padding-top: 25px">Projects</h1>
+
+        <!-- knode -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="assets/project-previews/knode-project.png" class="img-fluid" alt="Placeholder Image">
+            </div>
+
+            <div class="col-md-8 align-items-center d-flex">
+                <div style="width: 800px; padding-left:50px">
+                    <h2>knode</h2>
+
+                    <p>A node-based, interactive, learning system to help students visualize the connections between topics and iteratively explore the different subtopics of an area. Developed during the 2023 LlamaHack @ Cornell Tech.</p>
+
+                    <p> Role: Researcher and Product Manager </p>
+                    <a href="#" class="btn btn-primary">Download PDF Slides</a>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- Core Reserve  -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="assets/project-previews/core-reserve-project.png" class="img-fluid" alt="Placeholder Image">
+            </div>
+
+            <div class="col-md-8 align-items-center d-flex">
+                <div style="width: 800px; padding-left:50px">
+                    <h2>Core Reserve</h2>
+
+                    <p>Re-designing the existing seat reservation system into a mobile app that streamlines the booking process. Second Runnerup in the 2022 Columbia DevFest Hackathon. </p>
+
+                    <p> Role: Product Manager and Visual Designer</p>
+                    <a href="#" class="btn btn-primary">Download PDF Slides</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Columbia Health App -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="assets/project-previews/columbia-health-project.png" class="img-fluid" alt="Placeholder Image">
+            </div>
+
+            <div class="col-md-8 align-items-center d-flex">
+                <div style="width: 800px; padding-left:50px">
+                    <h2>Columbia Health App</h2>
+
+                    <p>An app to assist students in navigating the in-network providers for students on the Columbia health insurance plan and assist them in booking appointments. Developed during the Spring 2023 Design@Columbia x Google Design Spring. </p>
+
+                    <p>Role: UX Researcher and Product Manager</p>
+                    <a href="#" class="btn btn-primary">Download PDF Slides</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Trace Data -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="assets/project-previews/trace-data-project.png" class="img-fluid" alt="Placeholder Image">
+            </div>
+
+            <div class="col-md-8 align-items-center d-flex">
+                <div style="width: 800px; padding-left:50px">
+                    <h2>Trace.Data</h2>
+
+                    <p>Helping user reclaim their personal data and digital data privacy through an automated data removal requests from companies and data brokers. </p>
+
+                    <p> Role: Researcher and Product Manager</p>
+                    <a href="#" class="btn btn-primary">Download PDF Slides</a>
+                </div>
+            </div>
+
+        </div>
+
+        
     </div>
     
 </body>

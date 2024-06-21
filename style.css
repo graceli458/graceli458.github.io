@@ -1,10 +1,38 @@
 body {
     padding-top: 56px; /* Adjust this padding if your navbar height is different */
+    background-color: #ffead7;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px
 }
+
+.card{
+    padding:25px;
+    width: 36rem; 
+    height: 650px
+}
+
+.section-header{
+    padding-left: 40px;
+}
+
+.card-img-top{
+    width: auto;
+    max-height: 400px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
 
 .navbar-brand {
     font-size: 50px;
 }
+
+.navbar{
+    padding-left:50px;
+    padding-right:50px;
+}
+
 
 .nav-item {
     font-size: 32px;
@@ -20,4 +48,7 @@ body {
     padding-right: 25px;
 }
 
+.publications{
+    align-items:center;
+}
 
