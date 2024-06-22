@@ -10,6 +10,17 @@
     <link href="style.css" rel="stylesheet"> <!-- Link to your external CSS file -->
     <!-- Include Google Font (example: Roboto) -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍑</text></svg>"> -->
+    <!-- <link rel="manifest" href=" /assets/images/main/favicon/site.webmanifest">
+    <link rel="mask-icon" href=" /assets/images/main/favicon/safari-pinned-tab.svg" color="#333333">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> -->
+
   
 </head>
 
@@ -20,25 +31,25 @@
 
 <body>
     <!-- Fixed Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #ffdab9;">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="home.html">Grace Li</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://github.com/graceli458">Github<span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a href="https://github.com/graceli458" target="_blank"><i class="fab fa-github"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="mailto:graceli458@gmail.com">Email</a>
+                    <a href="mailto:graceli458@gmail.com"><i class="fas fa-envelope"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://twitter.com/another_graceli">Twitter</a>
+                    <a href="https://twitter.com/another_graceli" target="_blank"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.instagram.com/another_graceli/">Instagram</a>
+                    <a href="https://www.instagram.com/another_graceli" target="_blank"><i class="fab fa-instagram"></i></a>
                 </li>
             </ul>
         </div>
@@ -55,13 +66,13 @@
                 <div>
                     <h2>Hi, I’m Grace Li,</h2>
 
-                    <p class="intro">I'm an incoming CS Ph.D Student at Univeristy of Chicago, advised by Professor Mina Lee. Previously, I studied Computer Sciecne and English at Barnard College at Columbia University</p>
+                    <p class="intro">I'm an incoming CS Ph.D Student at Univeristy of Chicago, advised by Professor Mina Lee. Previously, I studied Computer Science and English at Barnard College at Columbia University</p>
                 
                     <p class="intro">My current research with the Columbia University Computational Design Lab is advised by Professor Lydia Chilton. I am exploring writing and creativity support tools and human-AI collaboration. I’m interested in designing  collaborative approaches learning and brainstorming: </p>
                     
                     <ul class="intro">
-                        <li>How can we encourage critical thinking and co-exploration when students engage with LLMs in the classroom?</li>
-                        <li>How can we leverage LLM’s to improve argumentative and creative writing evaluation and feedback?</li>
+                        <li class="intro">How can we encourage critical thinking and co-exploration when students engage with LLMs in the classroom?</li>
+                        <li class="intro">How can we leverage LLM’s to improve argumentative and creative writing evaluation and feedback?</li>
                     </ul>
                 </div>
                 
@@ -71,62 +82,113 @@
         <!-- Profile Picture + Description -->
         <div class="row mt-4 justify-content-center">
             <div>
-                <p>Current based in NYC and BOS</p>
+                <p>Currently based in NYC and BOS</p>
             </div>
         </div>
 
         
         <!-- Publications -->
         <h1>Publications</h1>
-
         <div class="row mt-4">
-
-            <div class="col-md-4 d-flex justify-content-cente ">
-                <div class="card mt-4 d-flex flex-column justify-content-between">
-                    <img src="assets/paper_previews/tweetorial-hooks-paper.png" class="card-img-top" alt="Placeholder Image">
-                    
-                    <div class="card-body flex-grow-1">
-                        <h5 class="card-title">Tweetorial Hooks: Generative AI Tools to Motivate Science on Social Media</h5>
-                        <p class="card-text"> Tao Long, Dorothy Zhang, <b>Grace Li</b>, Batool Taraif, Samia Menon, Kynnedy Smith, Sitong Wang, Katy Gero, Lydia B. Chilton</p>
-                        <a href="https://arxiv.org/abs/2305.12265" class="btn btn-primary">Paper</a>
+            <div class="col-md-4 d-flex">
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="assets/paper_previews/dialogue-act-paper.png" alt="Preview of a research paper titled: Is ChatGPT a Better Explainer than My Professor - Evaluating the Explanation Capabilities of LLMs in Conversation Compared to a Human Baseline" class="card-image">
+                    </div>
+                   
+                    <div class="card-content">
+                        <h2 class="card-title">Evaluating the Explanation Capabilities of LLMs in Conversation Compared to a Human Baseline</h2>
+                        <p class="card-body"><b>Grace Li</b>, Milad Aloshmary, Smaranda Muresan</p>
+                        <button class="card-button">Read More</button>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 d-flex justify-content-center">
-                <div class="card mt-4 d-flex flex-column justify-content-between">
-                    <img src="assets/paper_previews/topic-scoping-paper.png" class="card-img-top" alt="Placeholder Image">
-                    
-                    <div class="card-body flex-grow-1">
-                        <h5 class="card-title">Eliciting Topic Hierarchies from Large Language Models</h5>
-                        <p class="card-text"> <b>Grace Li</b>, Tao Long, Lydia B. Chilton</p>
-                        <a href="https://arxiv.org/abs/2310.19275" class="btn btn-primary">Paper</a>
+            <div class="col-md-4 d-flex">
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="assets/paper_previews/topic-scoping-paper.png" alt="Preview of a research paper titled: Eliciting Topic Hierachies from Large Language Models" class="card-image">
+                    </div>
+                   
+                    <div class="card-content">
+                        <h2 class="card-title">Eliciting Topic Hierachies from Large Language Models</h2>
+                        <p class="card-body"><b>Grace Li</b>, Tao Long, Lydia B. Chilton</p>
+                        <button class="card-button">Read More</button>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 d-flex justify-content-center">
-                <div class="card mt-4 d-flex flex-column justify-content-between">
-                    <img src="assets/paper_previews/dialogue-act-paper.png" class="card-img-top" alt="Placeholder Image">
-                    
-                    <div class="card-body flex-grow-1">
-                        <h5 class="card-title">Evaluating the Explanation Capabilities of LLMs in Conversation Compared to a Human Baseline</h5>
-                        <p class="card-text"><b>Grace Li</b>, Milad Alshomary, Smaranda Muresan</p>
-                        <a href="#" class="btn btn-primary">Paper</a>
+        
+            <div class="col-md-4 d-flex">
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="assets/paper_previews/tweetorial-hooks-paper.png" alt="Preview of a research paper titled: " class="card-image">
+                    </div>
+                   
+                    <div class="card-content">
+                        <h2 class="card-title">Tweetorial Hooks: GenerativeAI Tools to Motivate Science on Social Media</h2>
+                        <p class="card-body">Tao Long, Dorothy Zhang, <b>Grace Li</b>, Batool Taraif, Samia Menon, Kynnedy Smith, Sitong Wang, Katy Gero, Lydia B. Chilton</p>
+                        <button class="card-button">Read More</button>
                     </div>
                 </div>
             </div>
 
         </div>
+       
+
+
 
         <!-- Teaching -->
+        <br>
         <h1 style="padding-top: 25px">Teaching & Service</h1>
         
         <div>
-            <p>Spring 2023: Teaching Assistant for User Interface Design for Professor Lydia Chilton</p>
-            <p>Fall 2023:  Teaching Assistant for Natural Language Processing for Professor Daniel Bauer</p>
-            <p>Fall 2021 - Spring 2024: Head Speaking Fellow at the Barnard College Speaking and Writing Fellow</p>
-            <p>Spring 2022 - Winter 2023: Peer Tutor in Data Structures and Algorithms</p>
+            <h4>Courses</h4>
+            <ul>
+                <li>Spring 2023: Teaching Assistant for User Interface Design for Professor Lydia Chilton</li>
+                <li>Fall 2023:  Teaching Assistant for Natural Language Processing for Professor Daniel Bauer</li>
+                <li>Fall 2021 - Spring 2024: Head Speaking Fellow at the Barnard College Speaking and Writing Center</li>
+                <li>Spring 2022 - Winter 2023: Peer Tutor in Data Structures and Algorithms</li>
+            </ul>
+
+            <br>
+            <h4>Reviewer</h4>
+            <ul>
+                <li>2024: CHI24 - Late-Breaking Work</li>
+                <li>2024: HICCS</li>
+            </ul>
+
+            <br>
+            <h4>Speaking Engagements</h4>
+            <ul>
+                <li>Co-Presenter with Professor Lydia Chilton @ GenerativeAI Learning Community hosted by Barnard College's Center for Engaged Pedagogy. February 2024, NY</li>
+                <li>Panelist @ Undergraduate Research Panel hosted by Columbia University's Women in Computer Science. April 2024, NY.</li>
+            </ul>
+
+            <br>
+            <h4>Mentoring</h4>
+            <ul>
+                <li>Spring 2024: Undergraduate Research Mentor with Columbia University's Women in Computer Science.</li>
+            </ul>
+            
+        </div>
+
+        <!-- Awards -->
+        <br>
+        <h1>Awards</h1>
+        <br>
+        <div>
+            <h4>2024</h4>
+            <ul>
+                <li>Departmental Honors (awarded for distinguished work in the major to no more than 20% of graduates), Barnard College English Department</li>
+                <li>Theodore R. Bashkow Award (presented to a computer science senior who has excelled in independent projects), Columbia University</li>
+            </ul>
+            <h4>2023</h4>
+            <ul>
+                <li>Queer in AI Graduate School Application Scholarship, oSTEM</li>
+                <li>Richard B. Fischer Scholarship Recipient, Morgan Stanley</li>
+            </ul>
+
         </div>
          
         <!-- Projects -->
@@ -141,11 +203,11 @@
             <div class="col-md-8 align-items-center d-flex">
                 <div style="width: 800px; padding-left:50px">
                     <h2>knode</h2>
+                    <p><b>Role: Researcher and Product Manager</b></p>
 
                     <p>A node-based, interactive, learning system to help students visualize the connections between topics and iteratively explore the different subtopics of an area. Developed during the 2023 LlamaHack @ Cornell Tech.</p>
 
-                    <p> Role: Researcher and Product Manager </p>
-                    <a href="#" class="btn btn-primary">Download PDF Slides</a>
+                    <a href="https://www.canva.com/design/DAF3EAzzCJI/YOXnc60SdUVAfnuaa9MGmw/view?utm_content=DAF3EAzzCJI&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="btn btn-primary">Download PDF Slides</a>
                 </div>
             </div>
 
@@ -161,10 +223,11 @@
                 <div style="width: 800px; padding-left:50px">
                     <h2>Core Reserve</h2>
 
+                    <p><b>Role: Product Manager and Visual Designer</b></p>
+
                     <p>Re-designing the existing seat reservation system into a mobile app that streamlines the booking process. Second Runnerup in the 2022 Columbia DevFest Hackathon. </p>
 
-                    <p> Role: Product Manager and Visual Designer</p>
-                    <a href="#" class="btn btn-primary">Download PDF Slides</a>
+                    <a href="https://www.figma.com/proto/I323D3XemEYForwHrIyJqz/CORE-Reserve?node-id=91-6745&scaling=scale-down&viewport=434%2C396%2C0.08797536045312881" class="btn btn-primary">View Prototype</a>
                 </div>
             </div>
 
@@ -180,10 +243,11 @@
                 <div style="width: 800px; padding-left:50px">
                     <h2>Columbia Health App</h2>
 
+                    <p><b>Role: UX Researcher and Product Manager</b></p>
+
                     <p>An app to assist students in navigating the in-network providers for students on the Columbia health insurance plan and assist them in booking appointments. Developed during the Spring 2023 Design@Columbia x Google Design Spring. </p>
 
-                    <p>Role: UX Researcher and Product Manager</p>
-                    <a href="#" class="btn btn-primary">Download PDF Slides</a>
+                    <a href="https://static1.squarespace.com/static/6557c706a407aa6c4ac9db8b/t/659f3e3dae25601a3409bd2f/1704934985717/Columbia+Health+x+Google.pdf" class="btn btn-primary">Download PDF Slides</a>
                 </div>
             </div>
 
@@ -199,10 +263,11 @@
                 <div style="width: 800px; padding-left:50px">
                     <h2>Trace.Data</h2>
 
+                    <p><b>Role: Researcher and Product Manager</b></p>
+
                     <p>Helping user reclaim their personal data and digital data privacy through an automated data removal requests from companies and data brokers. </p>
 
-                    <p> Role: Researcher and Product Manager</p>
-                    <a href="#" class="btn btn-primary">Download PDF Slides</a>
+                    <a href="https://static1.squarespace.com/static/6557c706a407aa6c4ac9db8b/t/659f3e18b53a1a4f74184600/1704934941404/TRACE.DATA-final.pdf" class="btn btn-primary">Download PDF Slides</a>
                 </div>
             </div>
 
