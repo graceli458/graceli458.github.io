@@ -7,7 +7,7 @@ body {
 }
 
 p{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 li{
@@ -82,7 +82,7 @@ li{
 }
 
 .intro{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .row1{
@@ -115,16 +115,24 @@ li{
     padding: 15px;
 }
 
+.title-height{
+    height: 70px;
+    align-content: center;
+}
+
+
+
 .card-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: 16px;
     gap: 10px;
+    height: 180px;
 }
 
 .card-title {
-    font-size: 1.5em;
+    font-size: 20px;
     margin: 0;
     text-align:center;
 }
@@ -136,18 +144,20 @@ li{
 
 .card-image-wrapper {
     width: 100%;
-    height: 500px; /* Set a fixed height for images */
+    height: 400px; /* Set a fixed height for images */
     overflow: hidden;
 }
 
 .card-button {
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    padding: 10px;
+    margin: 10px;
 }
 
 .card-button:hover {

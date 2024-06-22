@@ -13,21 +13,8 @@
 
     <!-- Favicon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
-    <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍑</text></svg>"> -->
-    <!-- <link rel="manifest" href=" /assets/images/main/favicon/site.webmanifest">
-    <link rel="mask-icon" href=" /assets/images/main/favicon/safari-pinned-tab.svg" color="#333333">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff"> -->
-
   
 </head>
-
-<!-- Bootstrap JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <body>
     <!-- Fixed Navigation Bar -->
@@ -60,6 +47,7 @@
         <!-- Profile Picture + Description -->
         <div class="row mt-4" style="padding-top: 80px">
             <div class="col-md-6">
+                <i class="fas fa-location-dot mr-1"></i>Currently based in NYC 
                 <img src="assets/profile.jpeg" class="img-fluid" alt="Placeholder Image">
             </div>
             <div class="col-md-6 d-flex align-items-center">
@@ -70,23 +58,17 @@
                 
                     <p class="intro">My current research with the Columbia University Computational Design Lab is advised by Professor Lydia Chilton. I am exploring writing and creativity support tools and human-AI collaboration. I’m interested in designing  collaborative approaches learning and brainstorming: </p>
                     
-                    <ul class="intro">
-                        <li class="intro">How can we encourage critical thinking and co-exploration when students engage with LLMs in the classroom?</li>
-                        <li class="intro">How can we leverage LLM’s to improve argumentative and creative writing evaluation and feedback?</li>
+                    <ul>
+                        <li>How can we encourage critical thinking and co-exploration when university students engage with LLMs in the classroom?</li>
+                        <li></li>
                     </ul>
                 </div>
                 
             </div>
         </div>
+        <br>
 
-        <!-- Profile Picture + Description -->
-        <div class="row mt-4 justify-content-center">
-            <div>
-                <p>Currently based in NYC and BOS</p>
-            </div>
-        </div>
 
-        
         <!-- Publications -->
         <h1>Publications</h1>
         <div class="row mt-4">
@@ -97,10 +79,10 @@
                     </div>
                    
                     <div class="card-content">
-                        <h2 class="card-title">Evaluating the Explanation Capabilities of LLMs in Conversation Compared to a Human Baseline</h2>
-                        <p class="card-body"><b>Grace Li</b>, Milad Aloshmary, Smaranda Muresan</p>
-                        <button class="card-button">Read More</button>
+                        <p>Our study examines conversational approaches to explanations, using the 5-Levels dataset from the WIRED YouTube series. Annotated with explanatory acts, this dataset helps us understand how explainers and explainees structure their responses. We investigate whether including explanation move can improve an LLM's generated responses and evaluate model responses with human annotators.</p>
                     </div>
+
+                    <button class="card-button">Paper</button>
                 </div>
             </div>
 
@@ -111,10 +93,10 @@
                     </div>
                    
                     <div class="card-content">
-                        <h2 class="card-title">Eliciting Topic Hierachies from Large Language Models</h2>
-                        <p class="card-body"><b>Grace Li</b>, Tao Long, Lydia B. Chilton</p>
-                        <button class="card-button">Read More</button>
+                            <p>Research shows that Generative AI aids brainstorming but lacks support for pre-writing. Our study focuses on "topic scoping"—helping users find specific topics for their audience. We propose using Large Language Models to generate subtopics and have found a prompting strategy that improves specificity by 20 percentage points. Applications include education, content creation, and product management.</p>
                     </div>
+
+                    <button class="card-button">Paper</button>
                 </div>
             </div>
 
@@ -126,10 +108,11 @@
                     </div>
                    
                     <div class="card-content">
-                        <h2 class="card-title">Tweetorial Hooks: GenerativeAI Tools to Motivate Science on Social Media</h2>
-                        <p class="card-body">Tao Long, Dorothy Zhang, <b>Grace Li</b>, Batool Taraif, Samia Menon, Kynnedy Smith, Sitong Wang, Katy Gero, Lydia B. Chilton</p>
-                        <button class="card-button">Read More</button>
+                        <p>Tweetorials are popular, but STEM experts struggle to make them engaging. Our system, HookIncubator, utilizes scaffolding and AI chaining with LLMs for co-creating compelling hooks. Our evaluation indicates reduced cognitive load and well-supported science contextualization. Users edits LLM outputs for personal style and clarity, enhancing ownership and motivating more readers.</p>
                     </div>
+
+
+                    <button class="card-button">Paper</button>
                 </div>
             </div>
 
@@ -275,6 +258,13 @@
 
         
     </div>
+
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/assets/javascript/weather.js"></script>
     
 </body>
 </html>
