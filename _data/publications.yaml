@@ -2,25 +2,24 @@ papers:
   - title: "Audience Impressions of Narrative Structures and Personal Language Style in Science Communication on Social Media"
     authors: "<b>Grace Li</b>, YY Teng, Juna Kawai-Yue, Unaisah Ahmed, Anatta Tantiwongse, Jessica Liang, Dorothy Zhang, Kynnedy Simone Smith, Tao Long, Lydia B. Chilton"
     venue: "under submission. 2024."
-    paper_pdf: "/assets/publications/2024_supernotes/paper.pdf"
     selected: y
 
   - title: "Tweetorial Hooks: Generative AI Tools to Motivate Science on Social Media"
     authors: "Tao Long, Dorothy Zhang, <b>Grace Li</b>, Batool Taraif, Samia Menon, Kynnedy Smith, Sitong Wang, Katy Gero, Lydia B. Chilton"
     venue: "ICCC'24: International Conference on Computational Creativity. 2023."
-    paper_pdf: "/assets/publications/2024_supernotes/paper.pdf"
+    paper_pdf: "assets/publications/tweetorial_hooks/paper.pdf"
     selected: y
   
   - title: "Eliciting Topic Hierarchies from Large Language Models"
     authors: "<b>Grace Li</b>, Tao Long, Lydia B. Chilton"
     venue: "arXiv: arxiv preprint. 2023."
-    paper_pdf: "/assets/publications/2024_supernotes/paper.pdf"
+    paper_pdf: "/assets/publications/topic_hierachies/paper.pdf"
     selected: y
   
   - title: "\"Is ChatGPT a Better Explainer than My Professor?\": Evaluating the Explanation Capabilities of LLMs in Conversation Compared to a Human Baseline"
     authors: "<b>Grace Li</b>, Milad Alshomary, Smaranda Muresan"
     venue: "arXiv: arxiv preprint. 2024."
-    paper_pdf: "/assets/publications/2024_supernotes/paper.pdf"
+    paper_pdf: "assets/publications/explanation_acts/paper.pdf"
     selected: n
   
 
