@@ -1,7 +1,7 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /msaveski
+baseurl: /graceli458
 
 collections:
   projects:
