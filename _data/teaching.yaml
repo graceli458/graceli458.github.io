@@ -3,13 +3,28 @@ teaching:
     time: "Summer 2025"
     courseTitle: "Understanding AI: Challenges, Changes, and How We Communicate"
     position: "Instructor of Record"
+  
+  - place: "Columbia University"
+    time: "Spring 2024"
+    courseTitle: "User Interface Design"
+    position: "Teaching Assistant"
+  
+  - place: "New York City PS 153 - 1st and 2nd Grade"
+    time: "Spring 2024"
+    courseTitle: "Afterschool Computing Program"
+    position: "Co-Instructor"
 
   - place: "Columbia University"
     time: "Fall 2023"
     courseTitle: "Natural Language Processing"
     position: "Teaching Assistant"
 
-  - place: "Columbia University"
-    time: "Spring 2024"
-    courseTitle: "User Interface Design"
-    position: "Teaching Assistant"
+  - place: "Barnard College"
+    time: "Spring 2023 - Spring 2024"
+    courseTitle: "Speaking Center"
+    position: "Head Speaking Fellow"
+  
+  - place: "Barnard College"
+    time: "Fall 2022 - Fall 2023"
+    courseTitle: "Introduction to Data Structures and Algorithms"
+    position: "Peer Tutor"
