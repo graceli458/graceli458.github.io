@@ -1,7 +1,19 @@
 papers:
-  - title: "Audience Impressions of Narrative Structures and Personal Language Style in Science Communication on Social Media"
+  - title: "\"I would have completely trusted the LLM's response\": Changes in Students' Understanding and Behaviors After an AI Literacy Hallucination Lesson"
+    authors: "<b>Grace Li</b>, Jonathan Liu, Jaemarie Solyst, Diana Franklin, and Mina Lee"
+    venue: "under submission. 2025."
+    paper_pdf: "assets/publications/hallucinations/paper.pdf"
+    selected: y
+
+  - title: "A Constructivist Approach to Structuring Technical and Socio-Ethical AI Literacy Lessons"
+    authors: "<b>Grace Li</b>, Jaemarie Solyst, and Mina Lee"
+    venue: "under submission. 2025."
+    paper_pdf: "assets/publications/llm_literacy/paper.pdf"
+    selected: y
+
+  - title: "\"I never would have thought to say this\": Example-Based Exploration to Balance Scientists' Writing Preferences with Public Science Communication Strategies"
     authors: "<b>Grace Li</b>, YY Teng, Juna Kawai-Yue, Unaisah Ahmed, Anatta Tantiwongse, Jessica Liang, Dorothy Zhang, Kynnedy Simone Smith, Tao Long, Lydia B. Chilton"
-    venue: "under submission. 2024."
+    venue: "under submission. 2025."
     paper_pdf: "assets/publications/tweetorial_writing/paper.pdf"
     selected: y
 
@@ -9,13 +21,13 @@ papers:
     authors: "Tao Long, Dorothy Zhang, <b>Grace Li</b>, Batool Taraif, Samia Menon, Kynnedy Smith, Sitong Wang, Katy Gero, Lydia B. Chilton"
     venue: "ICCC'24: International Conference on Computational Creativity. 2023."
     paper_pdf: "assets/publications/tweetorial_hooks/paper.pdf"
-    selected: y
+    selected: n
   
   - title: "Eliciting Topic Hierarchies from Large Language Models"
     authors: "<b>Grace Li</b>, Tao Long, Lydia B. Chilton"
     venue: "arXiv: arxiv preprint. 2023."
     paper_pdf: "/assets/publications/topic_hierachies/paper.pdf"
-    selected: y
+    selected: n
   
   - title: "\"Is ChatGPT a Better Explainer than My Professor?\": Evaluating the Explanation Capabilities of LLMs in Conversation Compared to a Human Baseline"
     authors: "<b>Grace Li</b>, Milad Alshomary, Smaranda Muresan"
