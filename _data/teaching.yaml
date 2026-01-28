@@ -1,7 +1,12 @@
 teaching:
   - place: "University of Chicago - Pre-College Program"
+    time: "Summer 2026"
+    courseTitle: "Understanding AI: Technical, Socio-Ethical, and Career Development"
+    position: "Instructor of Record"
+
+  - place: "University of Chicago - Pre-College Program"
     time: "Summer 2025"
-    courseTitle: "Understanding AI: Challenges, Changes, and How We Communicate"
+    courseTitle: "Understanding AI: Technical, Socio-Ethical, and Career Development"
     position: "Instructor of Record"
   
   - place: "Columbia University"
