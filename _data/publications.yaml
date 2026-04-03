@@ -11,7 +11,7 @@ papers:
     paper_pdf: "assets/publications/llm_literacy/paper.pdf"
     selected: y
 
-  - title: "Experiential Activities to Help Teach Students about Large Language Model Hallucinations"
+  - title: "LLMs as Science Journalists: Supporting Early-stage Researchers in Communicating Their Science to the Public"
     authors: "Milad Aloshmary, <b>Grace Li</b>, Anubhav Jangra, Yufang Hou, Kathleen McKeown, and Smaranda Muresan"
     venue: "under submission. 2026."
     paper_pdf: "assets/publications/llm_journalist/paper.pdf"
