@@ -1,14 +1,8 @@
 papers:
   - title: "\"I would have completely trusted the LLM's response\": Changes in Students' Understanding and Behaviors After an AI Literacy Hallucination Lesson"
     authors: "<b>Grace Li</b>, Jonathan Liu, Jaemarie Solyst, Diana Franklin, and Mina Lee"
-    venue: "under submission. 2025."
+    venue: "under submission. 2026."
     paper_pdf: "assets/publications/hallucinations/paper.pdf"
-    selected: y
-
-  - title: "Experiential Activities to Help Teach Students about Large Language Model Hallucinations"
-    authors: "<b>Grace Li</b>, Jonathan Liu, Jaemarie Solyst, Diana Franklin, and Mina Lee"
-    venue: "under submission. 2025."
-    paper_pdf: "assets/publications/llm_literacy/paper.pdf"
     selected: y
 
   - title: "LLMs as Science Journalists: Supporting Early-stage Researchers in Communicating Their Science to the Public"
