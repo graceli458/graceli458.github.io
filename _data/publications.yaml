@@ -1,21 +1,16 @@
 papers:
-  - title: "\"I would have completely trusted the LLM's response\": Changes in Students' Understanding and Behaviors After an AI Literacy Hallucination Lesson"
-    authors: "<b>Grace Li</b>, Jonathan Liu, Jaemarie Solyst, Diana Franklin, and Mina Lee"
-    venue: "under submission. 2026."
-    paper_pdf: "assets/publications/hallucinations/paper.pdf"
-    selected: y
 
   - title: "LLMs as Science Journalists: Supporting Early-stage Researchers in Communicating Their Science to the Public"
     authors: "Milad Aloshmary, <b>Grace Li</b>, Anubhav Jangra, Yufang Hou, Kathleen McKeown, and Smaranda Muresan"
     venue: "under submission. 2026."
     paper_pdf: "assets/publications/llm_journalist/paper.pdf"
-    selected: n
+    selected: y
 
   - title: "\"I never would have thought to say this\": Example-Based Exploration to Balance Scientists' Writing Preferences with Public Science Communication Strategies"
     authors: "<b>Grace Li</b>, YY Teng, Juna Kawai-Yue, Unaisah Ahmed, Anatta Tantiwongse, Jessica Liang, Dorothy Zhang, Kynnedy Simone Smith, Tao Long, Lydia B. Chilton"
     venue: "under submission. 2025."
     paper_pdf: "assets/publications/tweetorial_writing/paper.pdf"
-    selected: n
+    selected: y
 
   - title: "Tweetorial Hooks: Generative AI Tools to Motivate Science on Social Media"
     authors: "Tao Long, Dorothy Zhang, <b>Grace Li</b>, Batool Taraif, Samia Menon, Kynnedy Smith, Sitong Wang, Katy Gero, Lydia B. Chilton"
