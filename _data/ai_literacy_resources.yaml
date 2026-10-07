@@ -1,0 +1,11 @@
+resources:
+  - title: "AI Conversation Cards"
+    description: "AI Conversation Cards are designed to spark conversations between students and families about how AI shows up in their everyday life to share their experiences with AI."
+    url: "https://drive.google.com/file/d/1Petn7vcXC3oeeoKBNWVtHzzHTb1z4Q8o/view?usp=sharing"
+    image: "assets/images/ai_convo_cards.png"
+
+  - title: "AI Mad Libs"
+    description: "AI Mad Libs are fill-in-the-blank activities that invite people to share their attitudes and perspectives on AI and AI literacy."
+    url: "https://drive.google.com/file/d/1QvCDK3T2XUpckgmI5Mdu4LUxITpURlvv/view?usp=sharing"
+    image: "assets/images/ai_mad_libs.png"
+

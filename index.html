@@ -150,6 +150,25 @@ title: Home
 </div>  
 
 
+<div class="docs-section" id="ai-literacy-resources">
+  <h4>AI Literacy Resources</h4>
+
+  <div class="resource-grid">
+    {% for r in site.data.ai_literacy_resources.resources %}
+      <a class="resource-card" href="{{ r.url }}" target="_blank" rel="noopener">
+        <div class="resource-image">
+          {% if r.image and r.image != "" %}<img src="{{ r.image | prepend: site.baseurl }}" alt="">{% else %}<i class="fa-regular fa-image"></i>{% endif %}
+        </div>
+        <div class="resource-body">
+          <p class="title"><b>{{ r.title }}</b></p>
+          <p>{{ r.description }}</p>
+        </div>
+        <i class="fa-solid fa-download resource-download"></i>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="docs-section" id="template">
   <h4>Acknowledgement</h4>
   This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>.
