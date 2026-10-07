@@ -155,7 +155,7 @@ title: Home
 
   <div class="resource-grid">
     {% for r in site.data.ai_literacy_resources.resources %}
-      <a class="resource-card" href="{{ r.url }}" target="_blank" rel="noopener">
+      <a class="resource-card" href="{{ r.url }}" target="_blank" rel="noopener" data-resource-name="{{ r.title | escape }}">
         <div class="resource-image">
           {% if r.image and r.image != "" %}<img src="{{ r.image | prepend: site.baseurl }}" alt="">{% else %}<i class="fa-regular fa-image"></i>{% endif %}
         </div>
@@ -168,6 +168,17 @@ title: Home
     {% endfor %}
   </div>
 </div>
+
+<script>
+  document.querySelectorAll('.resource-card[data-resource-name]').forEach(function (card) {
+    card.addEventListener('click', function () {
+      gtag('event', 'resource_click', {
+        resource_name: card.dataset.resourceName,
+        link_url: card.href
+      });
+    });
+  });
+</script>
 
 <div class="docs-section" id="template">
   <h4>Acknowledgement</h4>
