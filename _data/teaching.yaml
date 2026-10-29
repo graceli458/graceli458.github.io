@@ -1,30 +1,42 @@
 teaching:
-  - place: "University of Chicago - Pre-College Program"
+  - place: "University of Chicago Pre-College Program"
     time: "Summer 2026, Summer 2025"
-    courseTitle: "Understanding AI: Technical, Socio-Ethical, and Career Development"
+    courseTitle: "CMSC-19925 Understanding AI: Technical, Socio-Ethical, and Career Development"
     position: "Instructor of Record"
-  
-  - place: "Columbia University"
-    time: "Spring 2024"
-    courseTitle: "User Interface Design"
-    position: "Teaching Assistant"
-  
+    category: "Instructor"
+    description: "A 3-week summer intensive (75-instructional hours) on AI literacy for high school students, focused on large language models across technical, socio-ethical, and career development dimensions."
+
   - place: "New York City PS 153 - 1st and 2nd Grade"
     time: "Spring 2024"
     courseTitle: "Afterschool Computing Program"
     position: "Co-Instructor"
+    category: "Instructor"
+    description: "Introducing computing concepts such as data visualization, pixel representation, and computational thinking through age-appropriate, interactive learning experiences."
+
+  - place: "Columbia University"
+    time: "Spring 2024"
+    courseTitle: "User Interface Design"
+    position: "Teaching Assistant"
+    category: "Teaching Assistant"
+    description: ""
 
   - place: "Columbia University"
     time: "Fall 2023"
     courseTitle: "Natural Language Processing"
     position: "Teaching Assistant"
+    category: "Teaching Assistant"
+    description: ""
 
   - place: "Barnard College"
     time: "Spring 2023 - Spring 2024"
     courseTitle: "Speaking Center"
     position: "Head Speaking Fellow"
-  
+    category: "Teaching Assistant"
+    description: ""
+
   - place: "Barnard College"
     time: "Spring 2022 - Fall 2023"
     courseTitle: "Introduction to Data Structures and Algorithms"
     position: "Peer Tutor"
+    category: "Teaching Assistant"
+    description: ""

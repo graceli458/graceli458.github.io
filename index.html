@@ -5,10 +5,10 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-  <p>Hi! I'm Grace, a second-year Computer Science PhD student at the University of Chicago advised by Professor <a href="https://minalee-research.github.io/">Mina Lee</a>. My research is in student-AI interaction with a focus on designing and evaluating AI literacy interventions for both students and educators.</p>
+  <p>Hi! I'm Grace, a Computer Science PhD student at the University of Chicago advised by Professor <a href="https://minalee-research.github.io/">Mina Lee</a>. My research is in student-AI interaction with a focus on designing and evaluating AI literacy interventions for both students and educators.</p>
 
   <p>I have built interactive platforms that log fine-grained user behavior and can be used to evaluate the effectiveness of AI literacy lessons on both student knowledge and behaviors. I developed and taught a comprehensive AI literacy course focused on LLM literacy across technical, socio-ethical, and career development dimensions. I have also established research-practice-partnership with City Colleges of Chicago to bring AI literacy to community college educators.</p>
-  
+  <p><b>If you are a current undergraduate or masters student at UChicago, interested in working with me, please email me with your a resume and cover letter.</b></p>
   <!-- <p>Another area of my work is exploring how we can support student agency and teacher trust on writing assignments in and out of the classroom.</p> -->
   <!-- I am currently exploring the following areas:
   <ul>
@@ -17,10 +17,31 @@ title: Home
     <li>Facilitating Student/Teacher Dynamics: How can we support both student agency and teacher trust in and out of the classroom? </li>
   </ul> -->
 
-  <p> Before joining UChicago, I did my undergrad at Barnard College, double majoring in Computer Science and English with a concentration in Creative Writing. I earned English Departmental Honors and the Theodore R. Bashkow Undergraduate Research Award in Computer Science. I was fortunate to be advised by <a href="https://barnard.edu/profiles/jhumpa-lahiri">Jhumpa Lahiri</a>, for my Creative Writing Thesis. Throughout my undergraduate career, I did research with Professor <a href="https://www.cs.columbia.edu/~chilton/chilton.html">Lydia Chilton</a> on Human-AI co-writing tools to support science communication and with Professor <a href="https://www.cs.columbia.edu/~smara/">Smaranda Muresan</a> on using explanation dialogues to improve science explanations.</p>
+  <button class="bio-toggle" type="button" aria-expanded="false" aria-controls="bio-background">
+    <span class="bio-toggle-label">Life outside of research</span>
+    <svg class="bio-toggle-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6l5 5 5-5"/></svg>
+  </button>
+  <div class="bio-more" id="bio-background">
+    <div class="bio-more-inner">
+      <p> Before joining UChicago, I did my undergrad at Barnard College, double majoring in Computer Science and English with a concentration in Creative Writing. I earned English Departmental Honors and the Theodore R. Bashkow Undergraduate Research Award in Computer Science. I was fortunate to be advised by <a href="https://barnard.edu/profiles/jhumpa-lahiri">Jhumpa Lahiri</a>, for my Creative Writing Thesis. Throughout my undergraduate career, I did research with Professor <a href="https://www.cs.columbia.edu/~chilton/chilton.html">Lydia Chilton</a> on Human-AI co-writing tools to support science communication and with Professor <a href="https://www.cs.columbia.edu/~smara/">Smaranda Muresan</a> on using explanation dialogues to improve science explanations.</p>
+    </div>
+   
 
-  <p><b>If you are a current undergraduate or masters student at UChicago, interested in working with me, please email me with your a resume and cover letter.</b></p>
+  </div>
+  <script>
+    (function () {
+      var toggle = document.querySelector('.bio-toggle');
+      var panel = document.getElementById('bio-background');
+      var label = toggle.querySelector('.bio-toggle-label');
+      toggle.addEventListener('click', function () {
+        var open = panel.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', open);
+        label.textContent = open ? 'Show less' : 'Life outside of research';
+      });
+    })();
+  </script>
 
+  
 </div>
 
 <span class="anchor" id="news"></span>
@@ -28,8 +49,11 @@ title: Home
   <h3>News</h3>
   <i> * Scroll for more </i>
   <UL style="list-style-type: none; padding: 1px; padding-left: 0rem !important; margin-top: 0px; overflow-y: scroll; height:160px;">
+    <li><b>[October 2026]</b> Giving a guest lecture at the Data4All program for high school students on the LLM development process. 
+    <li><b>[October 2026]</b> Invited to give a talk at the UChicago Center for Teaching and Learning about my work on how writing instructor's navigate student AI use in take-home writing assignments. 
+    <li><b>[October 2026]</b> Demoed at the Chicago South Side Festival. Debuted new interactive platform to support young learners in better understanding the LLM development process for over 50 families. 
     <li><b>[July 2026]</b> Awarded a $10k research grant from the Hymen Milgrom Supporting Organization (HMSO) for my research on AI literacy for high school students from different socio-economic backgrounds. 
-    <li><b>[July 2026]</b> Starting teaching a 3-week summer intensive high school course about AI literacy through the UChicago PreCollege Program.
+    <li><b>[July 2026]</b> Started teaching a 3-week summer intensive high school course about AI literacy through the UChicago PreCollege Program.
     <li><b>[April 2026]</b> I was selected to introduce writer and photographer, Teju Cole, at the Literary Arts Lab Festival!
     <li><b>[Jan 2026]</b> Accepted as a Student Volunteer at CHI 2026 in Barcelona!
     <li><b>[Jan 2026]</b> Invited Panelist at the <a href="https://barnard.edu/Responsible-AI">Symposium on Responsible AI in the Liberal Arts</a> at Barnard College.
@@ -134,51 +158,6 @@ title: Home
     </div>
   </div>
 </div>
-
-<div class="docs-section" id="teaching">
-  <h4>Teaching</h4>
-
-    {% for course in site.data.teaching.teaching%}
-      <div class="paper">
-        <p class="title"><b>{{ course.place }}</b>, <i>{{ course.time }}</i></p>
-        <p>Course Title: {{ course.courseTitle }}</p>
-        <p>Position: {{course.position}}</p>
-          
-        </div>
-    {% endfor %}
-
-</div>  
-
-
-<div class="docs-section" id="ai-literacy-resources">
-  <h4>AI Literacy Resources</h4>
-
-  <div class="resource-grid">
-    {% for r in site.data.ai_literacy_resources.resources %}
-      <a class="resource-card" href="{{ r.url }}" target="_blank" rel="noopener" data-resource-name="{{ r.title | escape }}">
-        <div class="resource-image">
-          {% if r.image and r.image != "" %}<img src="{{ r.image | prepend: site.baseurl }}" alt="">{% else %}<i class="fa-regular fa-image"></i>{% endif %}
-        </div>
-        <div class="resource-body">
-          <p class="title"><b>{{ r.title }}</b></p>
-          <p>{{ r.description }}</p>
-        </div>
-        <i class="fa-solid fa-download resource-download"></i>
-      </a>
-    {% endfor %}
-  </div>
-</div>
-
-<script>
-  document.querySelectorAll('.resource-card[data-resource-name]').forEach(function (card) {
-    card.addEventListener('click', function () {
-      gtag('event', 'resource_click', {
-        resource_name: card.dataset.resourceName,
-        link_url: card.href
-      });
-    });
-  });
-</script>
 
 <div class="docs-section" id="template">
   <h4>Acknowledgement</h4>

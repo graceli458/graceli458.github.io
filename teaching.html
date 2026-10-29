@@ -1,0 +1,33 @@
+---
+layout: default
+title: Teaching
+---
+<div class="docs-section" id="teaching">
+  <h4>Teaching</h4>
+
+  {% assign categories = "Instructor,Teaching Assistant" | split: "," %}
+  {% for category in categories %}
+    {% assign courses = site.data.teaching.teaching | where: "category", category %}
+    {% if courses.size > 0 %}
+      <h5 class="course-category">{{ category }}</h5>
+      <div class="course-group">
+        {% for course in courses %}
+          <div class="course">
+            <div class="course-time">{{ course.time }}</div>
+            <div class="course-info">
+              <p class="course-title">{{ course.courseTitle }}</p>
+              {% if course.position == "Instructor of Record" or course.position == "Teaching Assistant" %}
+                <p class="course-meta">{{ course.place }}</p>
+              {% else %}
+                <p class="course-meta">{{ course.position }} &middot; {{ course.place }}</p>
+              {% endif %}
+              {% if course.description and course.description != "" %}
+                <p class="course-desc">{{ course.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
