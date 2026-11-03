@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="docs-section resource-page">
+  <p class="resource-back"><a href="{{ '/ai-literacy-resources.html' | prepend: site.baseurl }}"><i class="fa-solid fa-arrow-left"></i> All AI Literacy Resources</a></p>
+  <h4>{{ page.title }}</h4>
+
+  {{ content }}
+
+  <p class="resource-back"><a href="{{ '/ai-literacy-resources.html' | prepend: site.baseurl }}"><i class="fa-solid fa-arrow-left"></i> Back to AI Literacy Resources</a></p>
+</div>
+<script src="{{ '/libs/custom/doc_viewer.js' | prepend: site.baseurl }}"></script>
+<script>
+  gtag('event', 'resource_view', { resource_name: {{ page.title | jsonify }} });
+</script>

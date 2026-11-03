@@ -6,16 +6,17 @@ title: AI Literacy Resources
   <h4>AI Literacy Resources</h4>
 
   <div class="resource-grid">
-    {% for r in site.data.ai_literacy_resources.resources %}
-      <a class="resource-card" href="{{ r.url }}" target="_blank" rel="noopener" data-resource-name="{{ r.title | escape }}">
+    {% assign resources = site.ai_resources | sort: 'order' %}
+    {% for r in resources %}
+      <a class="resource-card" href="{{ r.url | prepend: site.baseurl }}" data-resource-name="{{ r.title | escape }}">
         <div class="resource-image">
           {% if r.image and r.image != "" %}<img src="{{ r.image | prepend: site.baseurl }}" alt="">{% else %}<i class="fa-regular fa-image"></i>{% endif %}
         </div>
         <div class="resource-body">
           <p class="title"><b>{{ r.title }}</b></p>
-          <p>{{ r.description }}</p>
+          <p>{{ r.card_description }}</p>
         </div>
-        <i class="fa-solid fa-download resource-download"></i>
+        <i class="fa-solid fa-arrow-right resource-download"></i>
       </a>
     {% endfor %}
   </div>

@@ -5,3 +5,6 @@ includes:    ./_includes
 collections:
   projects:
     output: true
+  ai_resources:
+    output: true
+    permalink: /ai-literacy-resources/:name/

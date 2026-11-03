@@ -1,0 +1,8 @@
+{%- comment -%}
+  Usage: {% include pdf_embed.html src="https://drive.google.com/file/d/ID/preview" title="Worksheet" height="80vh" link="https://drive.google.com/file/d/ID/view" %}
+  Only src is required. link adds an "Open in new tab" button.
+{%- endcomment -%}
+<div class="resource-embed">
+  <iframe src="{{ include.src }}" title="{{ include.title | default: 'PDF resource' | escape }}" loading="lazy" style="height: {{ include.height | default: '80vh' }};"></iframe>
+</div>
+{% if include.link %}<p class="resource-open"><a class="button" href="{{ include.link }}" target="_blank" rel="noopener">Open in new tab <i class="fa-solid fa-up-right-from-square"></i></a></p>{% endif %}
