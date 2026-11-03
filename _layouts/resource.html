@@ -7,6 +7,15 @@ layout: default
 
   {{ content }}
 
+  <div class="resource-license">
+    <p class="resource-license-title">Suggested Citation <span class="resource-license-more">(<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener license">Learn more about this license</a>)</span></p>
+    <p>
+      {{ page.author | default: site.data.main_info.name }}. {{ page.title }}. AI Literacy Resources.
+      <a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>.
+      Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener license">Creative Commons BY-NC-SA 4.0</a>.
+    </p>
+  </div>
+
   <p class="resource-back"><a href="{{ '/ai-literacy-resources.html' | prepend: site.baseurl }}"><i class="fa-solid fa-arrow-left"></i> Back to AI Literacy Resources</a></p>
 </div>
 <script src="{{ '/libs/custom/doc_viewer.js' | prepend: site.baseurl }}"></script>

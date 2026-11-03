@@ -473,6 +473,24 @@ body.dv-open {
 /*  ================ Resource detail page  ================ */
 .resource-back {
   margin-bottom: 1.5rem; }
+.resource-license {
+  margin: 2rem 0 1.5rem;
+  padding: 10px 14px;
+  border-left: 3px solid #ddd;
+  background: #fafafa;
+  font-size: 1.3rem;
+  color: rgba(0,0,0,0.65);
+  overflow-wrap: anywhere; }
+.resource-license p {
+  margin-bottom: 4px; }
+.resource-license p:last-child {
+  margin-bottom: 0; }
+.resource-license .resource-license-more {
+  font-weight: 400; }
+.resource-license .resource-license-title {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #222; }
 .resource-embed {
   margin: 1.5rem 0;
   border: 1px solid #ddd;
